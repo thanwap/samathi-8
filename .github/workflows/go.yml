@@ -19,3 +19,6 @@ jobs:
 
       - name: Build
         run: pwd
+
+      - name: Build2
+        run: ls
