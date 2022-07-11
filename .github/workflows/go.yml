@@ -35,4 +35,6 @@ jobs:
       - name: Build
         run: |
           cd backend
+          go get -d -v
           go build -o bin/samathi-8 -v .
+          ls
